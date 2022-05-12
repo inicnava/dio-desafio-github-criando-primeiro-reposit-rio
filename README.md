@@ -1,2 +1,2 @@
-# dio-desafio-github-criando-primeiro-reposit-rio
+# Dio: Desafio github; Criando o primeiro repositório
 Desafio proposto pelo bootcamp da DIO para criação do primeiro repositório do GitHub
