@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SpaceX</title>
+    <div class="header">
+        <div id="nav">
+            <a href="index.html"><img src="logo.png" alt="logo"></a> |
+            <a href="spaceships.html">The Spaceships</a> |
+            <a href="hire.html">Hire Us</a>
+        </div>
+    </div>
+
+    <hr>
+
+</head>
+
+<body>
+    <h1>Hire us now!</h1>
+    <p>Excepteur nisi incididunt sunt laborum quis excepteur. Culpa do enim ex reprehenderit ut. Sit minim minim incididunt excepteur commodo. Consequat ipsum adipisicing nisi laboris pariatur ea est cupidatat officia nostrud. Consequat eu et pariatur aliqua quis minim reprehenderit exercitation laborum officia commodo minim.</p>
+    <br>
+
+    <form action="">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" placeholder="Full Name" required> -
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email" required>
+        
+        <br>
+        <br>
+
+        <label for="ship">Spaceship: </label>
+        <select name="ship" id="ship" required>
+            <option value="Falcon9">Falcon 9</option>
+            <option value="FalconHeavy">Falcon Heavy</option>
+        </select> |
+
+        Service:
+        <input type="search" list="services" name="services" required>
+        <datalist id="services">
+            <option value="Deserunt id velit labore occaecat incididunt est sunt mollit ad.">
+            <option value="Labore non quis qui Lorem ipsum do id qui minim.">
+            <option value="Elit velit veniam laboris aute cillum do eiusmod.">
+            <option value="Ipsum excepteur mollit minim duis est dolore adipisicing.">
+        </datalist>
+        
+        <br>
+        <br>
+        <br>
+
+        <input type="submit" name="submit" id="submit" value="Send message!" onclick="alert('Message Sent')">
+    </form>
+</body>

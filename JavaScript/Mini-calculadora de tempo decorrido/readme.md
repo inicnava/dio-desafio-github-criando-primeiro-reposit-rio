@@ -1,0 +1,2 @@
+Mini-calculadora desenvolvida sob o tema da partida de uma nave espacial da terra.
+O usuário informa a data de partida e em seguida informa ao programa como retornar o tempo decorrido da data informada.
